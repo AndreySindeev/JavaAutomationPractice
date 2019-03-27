@@ -7,8 +7,9 @@ public class FindMinimum {
         int array[] = {x, y, z, w};
         Arrays.sort(array);
         int value = array[0];
-        //System.out.println(value);
+        System.out.println("Минимальное значение " + value);
         return value;
+
     }
 
 
