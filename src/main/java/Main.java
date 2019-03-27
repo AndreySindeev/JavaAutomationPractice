@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Main {
 
-
+    //TODO Binary search
     public static void main(String[] args) {
 
 
