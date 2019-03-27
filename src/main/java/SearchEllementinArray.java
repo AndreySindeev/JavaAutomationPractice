@@ -24,7 +24,7 @@ public class SearchEllementinArray {
 
         for (int i=0;i<arr.length;i++){
             arr[i] = (int) ( Math.random() * n);
-            System.out.println(arr[i] + " ");
+            System.out.print(arr[i] + " ");
 
             if (arr[i] == b){
                 number = true;

@@ -9,7 +9,7 @@ public class TextProgramm {
             index = str.indexOf(findellement, index+findellement.length());
         }
 
-        System.out.println(count);
+        System.out.println( "Количество вхождений данного символа: " + count);
 
     }
 }

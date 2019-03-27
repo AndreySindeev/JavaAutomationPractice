@@ -15,7 +15,7 @@ public class Main {
         search.SearchEllement();
 
         SelectionSortArray select = new SelectionSortArray();
-        int[] arr = {15, 58,37, 4, 555};
+        int[] arr = {15, 58,37, 4, 555, 8645, 1, 5569, 3, 4782, 2};
         select.SelectionSort(arr);
 
         BubbleSorting bubble = new BubbleSorting();

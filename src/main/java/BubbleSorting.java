@@ -10,9 +10,14 @@ public class BubbleSorting {
                     temp = numArray[j - 1];
                     numArray[j - 1] = numArray[j];
                     numArray[j] = temp;
+
                 }
 
             }
+            for (i=0; i<n; ++i)
+                System.out.print(numArray[i]+" ");
+            System.out.println("Bubble Sort");
+
 
         }
 
