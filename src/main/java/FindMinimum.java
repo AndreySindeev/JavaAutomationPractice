@@ -11,6 +11,10 @@ public class FindMinimum {
         return value;
 
     }
-
+    /**Overload ComputeLowest method to:
+     * 2 integer agr
+     * 3 integer arg
+     * Note: ComputeLowest(a, b, c, d) should use ComputeLowest(a, b, c) 
+     *       ComputeLowest(a, b, c) should use ComputeLowest(a, b) */
 
 }

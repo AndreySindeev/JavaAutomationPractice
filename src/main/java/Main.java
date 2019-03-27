@@ -1,4 +1,3 @@
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
@@ -11,8 +10,8 @@ public class Main {
         minimum.ComputeLowest(978, 35, 89, 44);
 
 
-        SearchEllementinArray search = new SearchEllementinArray();
-        search.SearchEllement();
+        SearchElementinArray search = new SearchElementinArray();
+        search.SearchElement();
 
         SelectionSortArray select = new SelectionSortArray();
         int[] arr = {15, 58,37, 4, 555, 8645, 1, 5569, 3, 4782, 2};
@@ -21,16 +20,16 @@ public class Main {
         BubbleSorting bubble = new BubbleSorting();
         bubble.sortArray(arr);
 
-        Scanner newscan = new Scanner(System.in);
+        Scanner newScan = new Scanner(System.in); /**Code of conduct*/
         TextProgramm letterCounter = new TextProgramm();
 
         String inputUser;
         String findChar;
-        System.out.println("Введите слово: ");
-        inputUser = newscan.next();
-        System.out.println();
-        System.out.println("Введите элемент поиска: ");
-        findChar = newscan.next();
+        System.out.println("Введите слово: "); /**During task you need some predefined test (you could try to generate it randomly by yourself or using external Apache lib:
+                                                  docs: https://commons.apache.org/proper/commons-lang/apidocs/org/apache/commons/lang3/RandomStringUtils.html*/
+        inputUser = newScan.next();
+        System.out.println("\nВведите элемент поиска: ");
+        findChar = newScan.next();
         System.out.println("Введенное слово анализируется...");
         letterCounter.getOccuringChar(inputUser, findChar);
 
