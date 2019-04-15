@@ -1,3 +1,5 @@
+package Fundamentals;
+
 public class TextProgramm {
     public void getOccuringChar(String str, String findellement) {
 
@@ -12,4 +14,6 @@ public class TextProgramm {
         System.out.println( "Количество вхождений данного символа: " + count);
 
     }
+
+
 }

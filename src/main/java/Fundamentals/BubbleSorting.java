@@ -1,3 +1,5 @@
+package Fundamentals;
+
 public class BubbleSorting {
     
     public void sortArray(int[] numArray) {
