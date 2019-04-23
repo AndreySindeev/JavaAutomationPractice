@@ -10,7 +10,7 @@ public class Circle {
         this.radius = radius;
         this.colors = colors;
     }
-    
+
     protected Circle(double radius){
         this.radius = radius;
     }
@@ -35,6 +35,7 @@ public class Circle {
     protected void setColors(String colors) {
         this.colors = colors;
     }
+
 
     protected double getArea(){
         return Math.PI * Math.pow(radius, 2) ;

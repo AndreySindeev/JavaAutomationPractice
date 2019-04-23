@@ -1,6 +1,6 @@
 package Inheritance_Polymorphism;
 
-public class Animal {
+public abstract class Animal {
 
     protected String color;
     protected int legs;
@@ -15,4 +15,5 @@ public class Animal {
     }
 
 
+    public abstract void voiceMethodForAnimal();
 }
