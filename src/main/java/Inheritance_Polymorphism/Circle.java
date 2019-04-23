@@ -10,7 +10,7 @@ public class Circle {
         this.radius = radius;
         this.colors = colors;
     }
-
+    
     protected Circle(double radius){
         this.radius = radius;
     }
