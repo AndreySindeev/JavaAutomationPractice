@@ -18,11 +18,11 @@ public class Pair<T1, T2> {
         return elementSecond;
     }
 
-    public T2 getFirstElement() {
-        return null;
-    }
-
-    public T2 getSecondElement() {
-        return null;
-    }
+//    public T2 getFirstElement() {
+//        return null;
+//    }
+//
+//    public T2 getSecondElement() {
+//        return null;
+//    }
 }
