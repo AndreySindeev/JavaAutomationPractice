@@ -36,6 +36,7 @@ public class Circle {
         this.colors = colors;
     }
 
+
     protected double getArea(){
         return Math.PI * Math.pow(radius, 2) ;
     }
